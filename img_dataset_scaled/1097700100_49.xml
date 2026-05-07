@@ -1,0 +1,38 @@
+<annotation>
+	<folder>img_dataset_scaled</folder>
+	<filename>1097700100_49.png</filename>
+	<path>C:\Users\Yannek Dirksen\Desktop\hallo jan\Uni\MA Semester 4\DH Project\Image Extraction\img_dataset_scaled\1097700100_49.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1400</width>
+		<height>1925</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>coat_of_arms</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>379</xmin>
+			<ymin>69</ymin>
+			<xmax>1390</xmax>
+			<ymax>918</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>coat_of_arms</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>392</xmin>
+			<ymin>913</ymin>
+			<xmax>1387</xmax>
+			<ymax>1752</ymax>
+		</bndbox>
+	</object>
+</annotation>

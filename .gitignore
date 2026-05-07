@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated datasets
+dataset/images/
+dataset/labels/
+
+# Generated crops
+cropped_coats_of_arms/
+split_supporters/
+
+# Trained models
+models/
+runs/
+
+# YOLO prediction outputs
+predict/
+predictions/
+
+# OS files
+.DS_Store
+Thumbs.db

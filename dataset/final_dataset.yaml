@@ -1,0 +1,7 @@
+path: C:\Users\Yannek Dirksen\Desktop\hallo jan\Uni\MA Semester 3\DH Project\1 Github\dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: coat_of_arms
