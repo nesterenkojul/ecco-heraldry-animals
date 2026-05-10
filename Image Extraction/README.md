@@ -10,22 +10,23 @@ The pipeline has five steps:
 4. Predict coats of arms on unseen pages.
 5. Split each cropped coat of arms into left and right supporter images.
 
+
 ## Folder structure
 
-Image Extraction/
-├── scripts/
-│   ├── 1_convert_voc_to_yolo.py
-│   ├── 2_crop_coats_from_xml.py
-│   ├── 3_train_yolo.py
-│   ├── 4_predict_coats.py
-│   └── 5_split_supporters.py
-├── img_dataset_scaled/
-├── dataset/
-├── models/
-├── cropped_coats_of_arms/
-├── split_supporters/
-└── test_pages/
-
+    Image Extraction/
+    ├── scripts/
+    │   ├── 1_convert_voc_to_yolo.py
+    │   ├── 2_crop_coats_from_xml.py
+    │   ├── 3_train_yolo.py
+    │   ├── 4_predict_coats.py
+    │   └── 5_split_supporters.py
+    ├── img_dataset_scaled/
+    ├── dataset/
+    ├── models/
+    ├── cropped_coats_of_arms/
+    ├── split_supporters/
+    └── test_pages/
+    
 ## Input data
 
 The pipeline expects manually annotated page images and XML files in:
