@@ -1,0 +1,73 @@
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================================
+# Virtual environments
+# =========================================
+venv/
+.venv/
+.env/
+
+# =========================================
+# Jupyter
+# =========================================
+.ipynb_checkpoints/
+
+# =========================================
+# Editors / OS
+# =========================================
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Large image datasets
+# =========================================
+Image Extraction/cropped_coats_of_arms/
+Image Extraction/dataset/
+Image Extraction/img_dataset_scaled/
+Image Extraction/raw_imgs/
+Image Extraction/test_pages/
+Image Extraction/split_supporters/
+
+# =========================================
+# Trained models
+# =========================================
+Image Extraction/models/
+*.pt
+
+# =========================================
+# YOLO outputs
+# =========================================
+Image Classification/supporter_cls_yolo*/
+Image Classification/runs/
+predict/
+predictions/
+
+# =========================================
+# Generated ML datasets
+# =========================================
+Image Classification/supporter_cls_ml/
+
+# =========================================
+# Cache files
+# =========================================
+*.cache
+
+# =========================================
+# Generated CSVs
+# =========================================
+Image Classification/annotations_ml.csv
+Image Classification/annotations_ml_local.csv
+
+# =========================================
+# Auto-labeled exports
+# =========================================
+Image Classification/auto_labeled/
